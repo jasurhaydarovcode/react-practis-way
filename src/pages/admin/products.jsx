@@ -57,7 +57,7 @@ function AdminProducts() {
 
     return (
         <AdminScreen title={'Client'}>
-            <button onClick={fileUpload} className='bg-red-400'>upload</button>
+            <button onClick={fileUpload} className='bg-green-400 px-3 py-2 text-white'>upload</button>
             <input onChange={handlechange} type="file" />
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg h-screen">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
